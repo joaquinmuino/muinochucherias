@@ -67,7 +67,7 @@ background: linear-gradient(
   rgba(199, 164, 255, 1) 100%) !important;
 }
 
-.form-control me-2-{;
+.form-control me-2-{
   justify-items: flex-end;
 }
 
@@ -78,10 +78,6 @@ background: linear-gradient(
     rgba(149, 117, 205, 1) 45%,
     rgba(199, 164, 255, 1) 100%) !important;
    
-}
-
-.container-fluidbuscar{
-
 }
 
 #navbarNav{
@@ -106,16 +102,6 @@ padding-bottom: 0%;
   color: aliceblue;
   font-size: 20px;
 }
-
-#carouselExampleFade{
-/*   background: rgb(149, 117, 205);
-  background: linear-gradient(
-    90deg,
-    rgba(149, 117, 205, 1) 45%,
-    rgba(199, 164, 255, 1) 100%) !important; */
-}
-
-
 /* estilos cartas */
 
 .btn-lav {
