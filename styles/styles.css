@@ -435,7 +435,31 @@ padding-bottom: 0%;
   }
 }
 
-/* PC */
-/* @media only screen and (min-width: 1024px) {
+/* electronica */ 
+h1{
+  color:red;
+  text-align: center;
+  margin-top: 2%;
+}
+.contenedora__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
 
-} */
+.contenedora__article{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+}
+.contenedora__article-dos{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
