@@ -1,0 +1,143 @@
+/* AFECTA TODAS LOS BODYS) */
+body {
+    background-color: $lilaSecundario;
+    font-family: raleway;
+}
+
+.exhibicion {
+    section {
+        margin: 2%;
+
+        article {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 2%;
+            margin-bottom: 5%;
+
+            .boxImagenes {
+                margin: 3%;
+
+                div {
+                    text-align: center;
+
+                    .btn-lav {
+                        color: $black;
+                        background-color: var(--lav);
+                        border-color: var(--lav);
+
+                        &:hover {
+                            color: $white;
+                            background-color: $lilaTercero;
+                            border-color: $lilaTercero;
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+            }
+        }
+
+        .contenedora__article-dos {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+    }
+}
+
+
+
+
+
+
+.contenedor__nosotros {
+    width: 100%;
+    height: auto;
+}
+
+
+/*AFECTA HEADER*/
+header {
+    background: $Gradiant;
+    display: block;
+    margin-bottom: 2px;
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-right: 2%;
+        background: $Gradiant;
+    }
+
+    .contenedorheader {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 20%;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+        }
+    }
+
+    #navbarNav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav {
+        flex-wrap: wrap;
+        font-size: 10px;
+
+    }
+
+    .container-fluid {
+        padding-bottom: 0%;
+    }
+
+    .nav-link {
+        color: $celestino;
+        font-size: 20px;
+    }
+
+    .redes {
+        margin-top: 0%;
+        margin-right: 2%;
+        display: flex;
+        justify-content: right;
+    }
+}
+
+
+/*AFECTA FOOTER*/
+footer {
+    bottom: 0;
+    margin-top: auto;
+    background: $Gradiant;
+
+    .redesfooter {
+        text-align: center;
+    }
+}
+
+/*AFECTA HEADER Y FOOTER*/
+.bi-facebook {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: $white;
+    &:hover{
+        color: $blancoLila;
+    }
+}
+
+.bi-envelope {
+    @extend .bi-facebook;
+    font-size: 2rem;
+}
+
+.bi-instagram {
+    @extend .bi-envelope;
+}

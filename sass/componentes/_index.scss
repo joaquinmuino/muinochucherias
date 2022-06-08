@@ -1,0 +1,28 @@
+.carouselBox {
+    margin: 3% 0;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+    margin: auto 30% auto 30%;
+    .nosotros__titulo {
+        font-size: 35px;
+    }
+    
+    .nosotros__descripcion {
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .nosotrosvideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
