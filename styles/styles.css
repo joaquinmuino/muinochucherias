@@ -59,12 +59,14 @@ img {
 }
 
 .navbar{
-padding: 0 0 0 0 ;
+display: flex;
+justify-content: right;
+margin-right: 2%;
 background: rgb(149, 117, 205);
 background: linear-gradient(
   90deg,
   rgba(149, 117, 205, 1) 45%,
-  rgba(199, 164, 255, 1) 100%) !important;
+  rgba(199, 164, 255, 1) 100%) ;
 }
 
 .form-control me-2-{
@@ -72,22 +74,28 @@ background: linear-gradient(
 }
 
 .navbar navbar-expand-lg{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0%;
   background: rgb(149, 117, 205);
   background: linear-gradient(
     90deg,
     rgba(149, 117, 205, 1) 45%,
-    rgba(199, 164, 255, 1) 100%) !important;
+    rgba(199, 164, 255, 1) 100%) ;
    
 }
 
 #navbarNav{
-  padding-left: 10%;
-  
+ justify-content: center;
+ flex-wrap: wrap; 
 }
 
 .navbar-nav{
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  font-size: 10px;
+  
 }
+
 
  
 .navbar-toggler-icon{
@@ -103,6 +111,10 @@ padding-bottom: 0%;
   font-size: 20px;
 }
 /* estilos cartas */
+.card{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .btn-lav {
   color: black;
@@ -136,12 +148,10 @@ padding-bottom: 0%;
 } */
 
 .redes {
-  text-align: right;
-  background: rgb(149, 117, 205);
-  background: linear-gradient(
-    90deg,
-    rgba(149, 117, 205, 1) 45%,
-    rgba(199, 164, 255, 1) 100%) !important;
+  margin-top: 0%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: right;
 }
 .redesfooter{
   text-align: center;
@@ -463,3 +473,18 @@ h1{
   justify-content: space-around;
 
 }
+
+.contenedorheader{
+  display: flex;
+  justify-content: center;
+}
+.contenedorheader img{
+    width: 20%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.contenedor__nosotros{
+  width: 100%;
+  height: auto;
+}
+
