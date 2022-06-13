@@ -4,3 +4,9 @@
     margin: $vMargin;
     padding: $vPadding;
 }
+
+@mixin flexcenter ($dflex, $aitems, $justify-c) {
+    display: $dflex;
+    align-items: $aitems;
+    justify-content: $justify-c;
+}

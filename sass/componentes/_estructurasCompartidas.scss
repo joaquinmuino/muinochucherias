@@ -107,10 +107,14 @@ header {
 
 /*AFECTA FOOTER*/
 footer {
+    @include flexcenter ($dflex, $aitems, $justify-c); 
+    height: 10rem;
     bottom: 0;
     margin-top: auto;
     background: $Gradiant;
-
+    p {
+      margin-bottom: 0%;  
+    }
     .redesfooter {
         text-align: center;
     }
