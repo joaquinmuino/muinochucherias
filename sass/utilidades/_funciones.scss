@@ -1,0 +1,6 @@
+// FUNCIONES
+// Mixins 
+@mixin marginsAndPaddings($vMargin, $vPadding){
+    margin: $vMargin;
+    padding: $vPadding;
+}

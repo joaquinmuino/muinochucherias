@@ -1,7 +1,9 @@
 // Imports de utilidades
-@import "../sass/utilidades/resets";
 @import "../sass/utilidades/colores";
+@import "../sass/utilidades/variables";
+@import "../sass/utilidades/funciones";
 @import "../sass/utilidades/tipografias";
+@import "../sass/utilidades/resets";
 
 // Imports de componentes
 @import "../sass/componentes/estructurasCompartidas";
@@ -10,6 +12,7 @@
 @import "../sass/componentes/index";
 @import "../sass/componentes/animaciones";
 @import "../sass/componentes/contacto";
+
 
 
 

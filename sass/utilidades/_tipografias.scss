@@ -1,17 +1,22 @@
-
-
-h1{
+h1 {
     color: $black;
-    text-align: center;
+    text-align: map-get($stylesFont, textCentro);
     margin-top: 2%;
-    text-transform: uppercase;
+    text-transform: map-get($stylesFont, uppercaseV);
 }
 
-// modifica los parrafos del footer
-.footer__descripcion{
+/* modifica parrafo del h1 */
+.contacto__descripcion{
     color: $black;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     font-size: 20px;
 }
+
+// modifica los parrafos del footer
+.footer__descripcion {
+    @extend .contacto__descripcion;
+}
+
+/* modifica descripcion  */

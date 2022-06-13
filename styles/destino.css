@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 /* Detalles graficos
     colores 
     lilaPrincipal: #9575cd 
@@ -19,12 +14,19 @@ h1 {
   margin-top: 2%;
   text-transform: uppercase; }
 
-.footer__descripcion {
+/* modifica parrafo del h1 */
+.contacto__descripcion, .footer__descripcion {
   color: #000;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
   font-size: 20px; }
+
+/* modifica descripcion  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* AFECTA TODAS LOS BODYS) */
 body {
@@ -76,7 +78,7 @@ header {
     display: flex;
     justify-content: center; }
     header .contenedorheader img {
-      width: 20%;
+      width: 25%;
       margin-top: 0.5%;
       margin-bottom: 0.5%; }
   header #navbarNav {
@@ -116,11 +118,27 @@ footer {
 .bi-envelope, .bi-instagram {
   font-size: 2rem; }
 
+footer {
+  bottom: 0;
+  margin-top: auto; }
+
 /* Celular */
 @media only screen and (max-width: 480px) {
+  /* header redes */
+  header .redes {
+    display: none; }
+  header .contenedorheader img {
+    width: 60%; }
   .contenedorheader img {
-    width: 70%;
+    width: 100%;
     height: 100%; }
+  .imgCarousel {
+    width: 40%;
+    height: 200px; }
+  h1 {
+    font-size: medium; }
+  h3 {
+    font-size: medium; }
   .menulogo {
     width: 350px;
     height: 50px; }
@@ -132,6 +150,16 @@ footer {
       flex-direction: column; } }
 
 /* Tablet */
+@media only screen and (max-width: 768px) {
+  /*AFECTA HEADER*/
+  .contenedorheader {
+    display: flex;
+    justify-content: center; }
+    .contenedorheader img {
+      width: 25%;
+      margin-top: 0.5%;
+      margin-bottom: 0.5%; } }
+
 .imgCarousel {
   width: 70%;
   height: 300px; }
@@ -194,14 +222,24 @@ footer {
   text-align: center;
   padding: 2vh 2vh 2vh 2vh; }
 
-.form-control me-2- {
-  justify-items: flex-end; }
-
 .contacto {
   text-align: center; }
 
 .contactocolor {
-  background-color: #c7a4ff !important; }
+  background-color: #c7a4ff; }
 
-.btn-outline-success {
-  background-color: aliceblue; }
+form input {
+  margin: 2% 0; }
+
+.cajaBotones {
+  margin: 2% auto;
+  width: 25%;
+  height: 100%;
+  display: flex; }
+  .cajaBotones input {
+    width: 80%;
+    background-color: #c7a4ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 4%;
+    border-radius: 5%; }

@@ -1,17 +1,28 @@
-.form-control me-2- {
-    justify-items: flex-end;
-}
-
 .contacto {
-    text-align: center;
+    text-align: map-get($stylesFont , textCentro)
 }
-
 
 .contactocolor {
-    background-color: #c7a4ff !important;
+    background-color: $lilaSecundario;
 }
 
-.btn-outline-success {
-    background-color: aliceblue;
+form{
+    input{
+        margin: 2% 0;
+    }
+}
 
+.cajaBotones{
+    margin: 2% auto;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    input{
+        width: 80%;
+        background-color: $lilaSecundario;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 4%;
+        border-radius: 5%;
+    }
 }
